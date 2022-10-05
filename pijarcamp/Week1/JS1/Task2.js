@@ -1,3 +1,4 @@
+// readline declaration
 var readLine = require('readline');
 
 // rl declaration for readline function
