@@ -20,7 +20,9 @@ rl.question('Masukkan angka : ', (userInput) => {
                 str.push(i);
             } console.log(str.join(""));
         };
-        // close
-        rl.close();
-    };
+    } else {
+        console.log('Input salah!');
+    } 
+    // close
+    rl.close();
 });
