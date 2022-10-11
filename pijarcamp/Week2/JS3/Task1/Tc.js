@@ -16,7 +16,7 @@ const cekHariKerja = (day) => {
 
 try {
     let result = cekHariKerja('SeSabtu');
-    console.log(result);
+    console.log(result.data);
 } catch(err){
     console.log({message: err.message});
 } 
