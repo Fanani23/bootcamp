@@ -1,8 +1,8 @@
 // readline declaration
-var readLine = require('readline');
+import { createInterface } from 'readline';
 
 // rl declaration for readline function
-var rl = readLine.createInterface({
+var rl = createInterface({
     input : process.stdin,
     output : process.stdout
 });

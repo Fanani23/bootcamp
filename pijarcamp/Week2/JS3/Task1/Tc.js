@@ -17,7 +17,7 @@ const cekHariKerja = (day) => {
 const cekHari = async() => {
     try {
         // untuk kondisi operasi berhasil
-        const response = await cekHariKerja('SSabtu');
+        const response = await cekHariKerja('Senin');
         console.log(response);
     } catch(err){
         // untuk kondisi operasi gagal

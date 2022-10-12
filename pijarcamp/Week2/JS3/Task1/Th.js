@@ -14,7 +14,7 @@ const cekHariKerja = (day) => {
     })
 }
 
-cekHariKerja('Senin')
+cekHariKerja('Sabtu')
     // untuk kondisi fulfilled atau operasi sukses
     .then((result) => {console.log(`Successfull - `, result)})
     // untuk kondisi failed atau operasi gagal
